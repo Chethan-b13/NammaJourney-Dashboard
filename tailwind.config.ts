@@ -14,6 +14,7 @@ export default {
         foreground: "var(--foreground)",
         primary: "#FCD240",
         secondary: "#eb222d",
+        link: "#1E4AE9",
       },
       fontFamily: {
         heading: ["var(--font-poppins)", "sans-serif"],
@@ -24,6 +25,7 @@ export default {
         heading: ["24px", { lineHeight: "36px", fontWeight: "600" }],
         subheading: ["18px", { lineHeight: "24px", fontWeight: "500" }],
         body: ["14px", { lineHeight: "20px", fontWeight: "400" }],
+        regular: ["16px", { lineHeight: "24px", fontWeight: "400" }],
       },
     },
   },
