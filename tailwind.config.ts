@@ -15,6 +15,7 @@ export default {
         primary: "#FCD240",
         secondary: "#eb222d",
         link: "#1E4AE9",
+        button: "346AFF",
       },
       fontFamily: {
         heading: ["var(--font-poppins)", "sans-serif"],

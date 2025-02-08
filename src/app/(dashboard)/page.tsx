@@ -10,7 +10,7 @@ const Home = () => {
       <p className="text-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
         turpis eget nunc pellentesque bibendum. Phasellus euismod, nisi ac
-        tincidunt
+        tincidun
       </p>
     </div>
   );

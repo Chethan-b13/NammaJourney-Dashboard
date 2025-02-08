@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../../public/images/logo-without-text.svg";
 import onBoarding from "../../../public/images/login-bag.svg";
+import Logo from "@/components/common/Logo";
 
 const AuthLayout = ({
   children,
@@ -18,17 +18,7 @@ const AuthLayout = ({
         />
         <div className="p-4 flex flex-col w-screen lg:p-8 space-y-8 lg:w-[450px] md:w-[600px]">
           <div className="space-y-4">
-            <div className="flex items-center space-x-4">
-              <Image
-                src={logo}
-                alt="namma journey logo"
-                width={"70"}
-                height={"70"}
-              />
-              <h1 className="font-heading text-[30px] font-medium">
-                namma journey
-              </h1>
-            </div>
+            <Logo />
             <p className="text-regular">
               Plan, manage, and grow your travel business effortlessly.
             </p>
