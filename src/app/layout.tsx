@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import "../../public/styles/global.css";
-import { poppins, raleway, roboto } from "@/libs/fonts";
+import type { Metadata } from 'next';
+import '../../public/styles/global.css';
+import { poppins, raleway, roboto } from '@/libs/fonts';
 
 export const metadata: Metadata = {
-  title: "Namma Journey",
+  title: 'Namma Journey',
   description:
-    "Namma Journey is a travel app that helps travellers discover travel plans and join rooms to travel together.",
+    'Namma Journey is a travel app that helps travellers discover travel plans and join rooms to travel together.',
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${raleway.variable} ${roboto.variable}`}
+        className={`${poppins.variable} ${raleway.variable} ${roboto.variable} mx-auto h-screen w-screen bg-background`}
       >
         {children}
       </body>
