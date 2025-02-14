@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import '../../public/styles/global.css';
+import './global.css';
 import { poppins, raleway, roboto } from '@/libs/fonts';
 
 export const metadata: Metadata = {

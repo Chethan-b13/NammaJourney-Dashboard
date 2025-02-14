@@ -19,7 +19,7 @@ const AuthLayout = ({
         <div className="flex w-screen flex-col space-y-8 p-4 md:w-[600px] lg:w-[450px] lg:p-8">
           <div className="space-y-4">
             <Logo />
-            <p className="text-regular">
+            <p className="bg text-regular">
               Plan, manage, and grow your travel business effortlessly.
             </p>
           </div>

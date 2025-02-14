@@ -8,9 +8,7 @@ const DashboardLayout = ({
   return (
     <div className="flex h-full flex-row p-4">
       <SideBar />
-      <div className="flex-1 px-4">
-        <Header />
-      </div>
+      <Header />
     </div>
   );
 };

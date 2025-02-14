@@ -1,6 +1,6 @@
 import { HousePlus } from 'lucide-react';
-import Link from 'next/link';
 import React from 'react';
+import NavLink from '../ui/NavLink';
 
 const SideBarMenu = () => {
   return (
@@ -8,23 +8,23 @@ const SideBarMenu = () => {
       <ul className="flex flex-col gap-6 px-6 py-6">
         <li className="flex items-center gap-4">
           <HousePlus />
-          <Link href="/trips">Navigation</Link>
+          <NavLink href="/trips">Navigation</NavLink>
         </li>
         <li className="flex items-center gap-4">
           <HousePlus />
-          <Link href="/trips">Navigation</Link>
+          <NavLink href="/trips">Navigation</NavLink>
         </li>
         <li className="flex items-center gap-4">
           <HousePlus />
-          <Link href="/trips">Navigation</Link>
+          <NavLink href="/trips">Navigation</NavLink>
         </li>
         <li className="flex items-center gap-4">
           <HousePlus />
-          <Link href="/trips">Navigation</Link>
+          <NavLink href="/trips">Navigation</NavLink>
         </li>
         <li className="flex items-center gap-4">
           <HousePlus />
-          <Link href="/trips">Navigation</Link>
+          <NavLink href="/trips">Navigation</NavLink>
         </li>
       </ul>
     </div>

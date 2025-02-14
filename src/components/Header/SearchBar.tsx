@@ -1,12 +1,10 @@
 import React from 'react';
+import Input from '../ui/Input';
 
 const SearchBar = () => {
   return (
     <div className="flex-1 items-center justify-center">
-      <input
-        placeholder="Search"
-        className="w-full rounded-md border px-4 py-2 shadow-sm hover:border-yellow-500 focus:border-yellow-500 focus:outline-none"
-      ></input>
+      <Input placeholder="Search" type="search" />
     </div>
   );
 };

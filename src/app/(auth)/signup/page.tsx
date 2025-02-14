@@ -1,14 +1,14 @@
-import React from "react";
-import InputField from "@/components/common/InputField";
-import GoogleFormSection from "@/components/Auth/GoogleFormSection";
+import React from 'react';
+import GoogleFormSection from '@/components/Auth/GoogleFormSection';
+import Input from '@/components/ui/Input';
 
 const SignupPage = () => {
   return (
     <div>
       <div className="space-y-4">
-        <InputField label="Email" placeholder="example@gmail.com" />
-        <InputField label="Password" placeholder="********" type="password" />
-        <InputField
+        <Input label="Email" placeholder="example@gmail.com" />
+        <Input label="Password" placeholder="********" type="password" />
+        <Input
           label="Confirm Password"
           placeholder="********"
           type="password"
